@@ -1,0 +1,10 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+// Importamos el componente que generamos anteriormente
+import ResuelvePitchPortal from './ResuelvePitchPortal.jsx'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <ResuelvePitchPortal />
+  </React.StrictMode>,
+)
